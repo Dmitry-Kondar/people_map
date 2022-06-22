@@ -1,8 +1,11 @@
 .two-slots-cell {
-  display: grid;
-  grid-auto-rows: repeat(2, 1fr);
-  background-color: red;
-  border-color: blue;
+  /* display: grid;
+  grid-template-rows: repeat(2, 1fr); */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: blue;
+  border-color: red;
   border: 1px;
   min-height: 50px;
   min-width: 50px;
