@@ -4,6 +4,18 @@
   grid-template-rows: repeat(3, 1fr);
 }
 
+c-two-slots-cell {
+  display: contents;
+}
+
+c-five-slots-cell {
+  display: contents;
+}
+
+c-row-shoulder {
+  display: contents;
+}
+
 
 /* .people-map-body {
   display: flex;
