@@ -12,4 +12,9 @@ export default class CellSlot extends LightningElement {
       result === null ? this.contact = this.contact : this.contact = result;
     });
   }
+
+  handleShowModal() {
+    const modal = this.template.querySelector("c-custom-cell-slots-prompt");
+    modal.show();
+  }
 }
