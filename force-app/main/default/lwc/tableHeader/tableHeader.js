@@ -9,7 +9,6 @@ export default class TableHearder extends LightningElement {
       label: "Type Header text",
       defaultValue: "HEADER"
     }).then((result) => {
-      console.log(result);
       result === null ? this.header = this.header : this.header = result;
     });
   }
