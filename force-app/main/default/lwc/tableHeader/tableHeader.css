@@ -1,0 +1,5 @@
+.table-header {
+  background-color: yellow;
+  min-height: 60px;
+  max-height: 120px;
+}

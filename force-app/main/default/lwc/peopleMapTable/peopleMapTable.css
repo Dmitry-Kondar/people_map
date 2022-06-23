@@ -1,7 +1,9 @@
 .people-map-body {
   display: grid;
   grid-template-columns: 50px repeat(7, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 60px repeat(3, 1fr);
+  column-gap: 2px;
+  row-gap: 2px;
 }
 
 c-two-slots-cell {
@@ -16,23 +18,6 @@ c-row-shoulder {
   display: contents;
 }
 
-
-/* .people-map-body {
-  display: flex;
-  grid-template-columns: 50px repeat(7, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-auto-rows: 1fr
+c-table-header {
+  display: contents;
 }
-
-.shoulder {
-  background-color: green;
-  min-height: 100px;
-}
-
-.five {
-  background-color: red;
-}
-
-.two {
-  background-color: blue;
-} */
