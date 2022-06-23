@@ -7,3 +7,7 @@
   min-height: 200px;
   min-width: 50px;
 }
+
+c-cell-slot {
+  display: contents;
+}
